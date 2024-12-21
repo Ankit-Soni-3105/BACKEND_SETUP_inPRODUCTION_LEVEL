@@ -5,4 +5,6 @@ const router=Router();
 
 router.get('/', indexController.index)
 
+router.get('/home', indexController.home)
+
 module.exports = router
